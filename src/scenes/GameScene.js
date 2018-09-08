@@ -11,6 +11,6 @@ export default class GameScene extends Phaser.Scene {
   }
 
   update () {
-    this.mushroom.angle++
+    this.mushroom.angle--
   }
 }
